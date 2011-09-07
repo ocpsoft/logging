@@ -18,4 +18,11 @@ public class JDKLogAdapterFactoryTest
       assertEquals(JDKLogAdapter.class, log.getClass());
    }
 
+   @Test
+   public void testJDKGetLogAdapterFromLogger()
+   {
+      Logger log = Logger.getLogger(this.getClass());
+      assertEquals(JDKLogAdapter.class, log.getClass());
+   }
+
 }
