@@ -18,7 +18,7 @@
 
       <dependency>
          <groupId>com.ocpsoft.logging</groupId>
-         <artifactId>logging</artifactId>
+         <artifactId>logging-api</artifactId>
          <scope>provided</scope>
       </dependency>
       
