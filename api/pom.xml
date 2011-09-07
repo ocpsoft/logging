@@ -14,7 +14,7 @@
    <parent>
       <groupId>com.ocpsoft.logging</groupId>
       <artifactId>logging-parent</artifactId>
-      <version>1.0.0.Final</version>
+      <version>1.0.1-SNAPSHOT</version>
       <relativePath>../</relativePath>
    </parent>
    
