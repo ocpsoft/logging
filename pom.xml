@@ -19,13 +19,13 @@
    <parent>
       <groupId>org.ocpsoft</groupId>
       <artifactId>ocpsoft-parent</artifactId>
-      <version>3</version>
+      <version>6</version>
    </parent>
 
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <version.junit>4.8.1</version.junit>
-      <version.common>1.0.3-SNAPSHOT</version.common>
+      <version.common>1.0.4.Final</version.common>
    </properties>
 
    <modules>
@@ -81,16 +81,6 @@
          <timezone>-5</timezone>
       </developer>
    </developers>
-
-   <url>http://ocpsoft.org/</url>
-
-   <licenses>
-      <license>
-         <name>Apache License</name>
-         <url>http://www.apache.org/licenses/</url>
-         <distribution>repo</distribution>
-      </license>
-   </licenses>
 
    <scm>
       <connection>scm:git:git://github.com/ocpsoft/logging.git</connection>
