@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
    <parent>
       <artifactId>logging-parent</artifactId>
-      <groupId>com.ocpsoft.logging</groupId>
+      <groupId>org.ocpsoft.logging</groupId>
       <version>1.0.1-SNAPSHOT</version>
       <relativePath>../</relativePath>
    </parent>
@@ -17,7 +17,7 @@
    <dependencies>
 
       <dependency>
-         <groupId>com.ocpsoft.logging</groupId>
+         <groupId>org.ocpsoft.logging</groupId>
          <artifactId>logging-api</artifactId>
          <scope>provided</scope>
       </dependency>
