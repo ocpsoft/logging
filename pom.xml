@@ -13,7 +13,7 @@
    
    <groupId>org.ocpsoft.logging</groupId>
    <artifactId>logging-parent</artifactId>
-   <version>1.0.2.Final</version>
+   <version>1.0.3-SNAPSHOT</version>
    <packaging>pom</packaging>
 
    <parent>
