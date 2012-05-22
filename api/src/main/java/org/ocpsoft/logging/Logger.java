@@ -248,7 +248,7 @@ public abstract class Logger
    @SuppressWarnings("unchecked")
    private static LogAdapterFactory createAdapterFactory()
    {
-      List<LogAdapterFactory> factories = Iterators.asUniqueList(ServiceLoader.load(LogAdapterFactory.class));
+      List<LogAdapterFactory> factories = Iterators.asList(ServiceLoader.load(LogAdapterFactory.class));
       if (factories.isEmpty())
       {
          throw new IllegalStateException("Log logging implementations found!");
