@@ -1,5 +1,6 @@
 package org.ocpsoft.logging;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -7,7 +8,6 @@ import org.ocpsoft.common.pattern.WeightedComparator;
 import org.ocpsoft.common.services.ServiceLoader;
 import org.ocpsoft.common.util.Iterators;
 import org.ocpsoft.logging.spi.LogAdapterFactory;
-
 
 /**
  * Class to create log messages.
@@ -251,7 +251,10 @@ public abstract class Logger
       List<LogAdapterFactory> factories = Iterators.asList(ServiceLoader.load(LogAdapterFactory.class));
       if (factories.isEmpty())
       {
-         throw new IllegalStateException("Log logging implementations found!");
+         /*
+          * Always fall back to the JDK, even if our service loading mechanism is hosed for some reason.
+          */
+         factories = Arrays.asList((LogAdapterFactory) new JDKLogAdapterFactory());
       }
 
       /*
