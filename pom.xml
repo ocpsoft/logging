@@ -64,6 +64,18 @@
 
    <build>
       <finalName>logging-parent</finalName>
+      <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <configuration>
+               <localCheckout>true</localCheckout>
+               <autoVersionSubmodules>true</autoVersionSubmodules>
+               <tagNameFormat>@{project.version}</tagNameFormat>
+               <pushChanges>false</pushChanges>
+            </configuration>
+         </plugin>
+      </plugins>
    </build>
 
    <developers>
