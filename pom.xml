@@ -13,7 +13,7 @@
    
    <groupId>org.ocpsoft.logging</groupId>
    <artifactId>logging-parent</artifactId>
-   <version>1.0.5.Final</version>
+   <version>1.0.6-SNAPSHOT</version>
    <packaging>pom</packaging>
 
    <parent>
@@ -98,7 +98,7 @@
       <connection>scm:git:git://github.com/ocpsoft/logging.git</connection>
       <developerConnection>scm:git:git@github.com:ocpsoft/logging.git</developerConnection>
       <url>http://github.com/ocpsoft/logging</url>
-     <tag>1.0.5.Final</tag>
+     <tag>HEAD</tag>
   </scm>
 
    <issueManagement>
