@@ -5,7 +5,7 @@ import java.util.logging.LogRecord;
 /**
  * Implementation of a log adapter that delegates to the JDK 1.4 logging API.
  * 
- * @author Christian Kaltepoth <christian@kaltepoth.de>
+ * @author Christian Kaltepoth
  */
 public class JDKLogAdapter extends Logger
 {
@@ -37,6 +37,9 @@ public class JDKLogAdapter extends Logger
 
    /**
     * Translates the log level to JDK {@link java.util.logging.Level} class.
+    *
+    * @param level The internal log level
+    * @return The JUL log level
     */
    protected final java.util.logging.Level getJdkLogLevel(final Level level)
    {

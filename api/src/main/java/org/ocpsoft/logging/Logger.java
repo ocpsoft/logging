@@ -12,7 +12,7 @@ import org.ocpsoft.logging.spi.LogAdapterFactory;
 /**
  * Class to create log messages.
  * 
- * @author Christian Kaltepoth <christian@kaltepoth.de>
+ * @author Christian Kaltepoth
  */
 public abstract class Logger
 {

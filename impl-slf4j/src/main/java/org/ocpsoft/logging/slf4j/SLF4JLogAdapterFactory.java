@@ -6,7 +6,7 @@ import org.ocpsoft.logging.spi.LogAdapterFactory;
 /**
  * Implementation of {@link LogAdapterFactory} that creates log adapters delegating log events to SLF4J.
  * 
- * @author Christian Kaltepoth <christian@kaltepoth.de>
+ * @author Christian Kaltepoth
  */
 public class SLF4JLogAdapterFactory implements LogAdapterFactory
 {

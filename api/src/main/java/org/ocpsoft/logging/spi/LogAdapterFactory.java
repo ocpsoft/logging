@@ -7,7 +7,7 @@ import org.ocpsoft.logging.Logger;
 /**
  * SPI for custom logging adapters
  * 
- * @author Christian Kaltepoth <christian@kaltepoth.de>
+ * @author Christian Kaltepoth
  */
 public interface LogAdapterFactory extends Weighted
 {

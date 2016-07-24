@@ -7,7 +7,7 @@ import org.ocpsoft.logging.spi.LogAdapterFactory;
 /**
  * Implementation of {@link LogAdapterFactory} for the JDK 1.4 logging API.
  * 
- * @author Christian Kaltepoth <christian@kaltepoth.de>
+ * @author Christian Kaltepoth
  */
 public class JDKLogAdapterFactory implements LogAdapterFactory, NonEnriching
 {

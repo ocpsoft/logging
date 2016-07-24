@@ -20,7 +20,7 @@ import org.ocpsoft.logging.Logger;
 /**
  * Log adapter that delegates log events to SLF4J
  * 
- * @author Christian Kaltepoth <christian@kaltepoth.de>
+ * @author Christian Kaltepoth
  */
 public class JBossLoggingLogAdapter extends Logger
 {
